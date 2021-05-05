@@ -1,0 +1,224 @@
+/* *** mobile *** */
+@media screen and (max-width:730px){
+
+    .content{
+      padding: 0px;
+      }
+  .logo{
+    padding: 10px 0px 0px 20px;
+  }
+      header a {
+        font-size: 1.3em;
+        display: block;
+      }
+  
+    .navigateur{
+      display: block;
+      width: 100%;
+    }
+    .signin{
+      position: absolute;
+      top: 2em;
+      right: 1.5em;
+    }
+  
+    nav{
+      margin-top: 30px;
+      width: 100%;
+    }
+    nav a {
+      padding: 0px;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #e6e2e7;
+    }
+  
+  nav ul{
+    padding-left: 0px;
+    margin: 0px;
+  }
+  
+  nav li {
+    width: 50%;
+    text-align: center;
+  }
+  nav li :hover{
+    border-top: none;
+  }
+   nav li :hover {
+    border-bottom: 2px solid #0065fc;
+    color: blue;
+  }
+  
+  /* **** barre recherche ***** */
+  .subheader{
+    margin: 0px 20px 0px 20px;
+  }
+  h1{
+    font-size: 1.5em;
+  }
+  .text-header p{
+  font-size: 1.2em;
+  }
+  
+  .submit{
+    display: none;
+  }
+  .recherche .fa-search{
+    display: initial;
+    color: #f2f2f2;
+    background-color: #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+  }
+  #maRecherche {
+    width: 100%;
+    height: 42px;
+  }
+  
+  .bouton-filtre{
+    margin-top: 10px;
+  }
+  
+  .bouton-filtre a{
+    font-size: 1.2em;
+  }
+  
+  .filtres{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .filtrepicto{
+    flex-direction: column;
+    align-items: initial;
+  }
+  
+  /* ********* Trend ******** */
+  
+  #trend{
+    border-radius: 0px;
+    width: 100%;
+    margin: 0px;
+  }
+  
+  #trend .trendtitle i{
+     font-size: 20px;
+     padding-right: 20px;
+  }
+  
+  .trendtitle h2{
+    font-size: 18px;
+    padding-left: 15px;
+  }
+  
+  #trend .container-box{
+    flex-direction: column;
+   
+  }
+  #trend .trendbox{
+    width: 90%;
+    margin: 0px;
+    margin-bottom: 2em;
+  }
+  
+  .text-menu h3, .text-menu p{
+    font-size: 16px;
+  }
+  .text-menu .trend-star p{
+    margin: 0px;
+  }
+  
+  /* *****hebergement ***** */
+  
+  .corps{
+    flex-direction: column-reverse;
+  }
+  
+  .content-box{
+    width: 100%;
+  }
+  .hebergement{
+    background-color: initial;
+    width: 100%;
+    padding: 0px;
+  }
+  
+  .first-ligne, .second-ligne{
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-box .box{
+    width: 80%; 
+  }
+  .menu h2{
+    font-size: 1.6em;
+   margin-left: 1.5em;
+  }
+  .box h3{
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .box p{
+    font-size: 16px;
+    margin: 0px;
+  }
+  .afficher-plus{
+    font-size: 14px;
+    margin-top: 30px;
+    padding-left: 3em;
+  }
+  .box .star{
+    padding: 0px 0px 10px 10px;
+  }
+  .star p{
+    margin: 0px;
+  }
+  
+  /* ************** activity ***************** */
+  
+  .activity{
+    margin-top: 2em;
+  }
+  
+  .activity h2{
+    padding-left: 2em;
+  }
+  
+  .flex-activity{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ligne-activ{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .first-column, .second-column{
+    flex-direction: column;
+    width: 80%;
+    margin: 0px;
+  }
+  
+  .flex-activity img, .flex-activity .box-activ2 img{
+  height: 220px;
+  }
+  
+  .bigbox{
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .box-activ1, .box-activ2{
+    width: 100%;
+  }
+  /* **************** footer ***************** */
+  
+  footer{
+    flex-direction: column;
+  }
+  .footerbox{
+    width: 100%;
+  }
+  
+  }

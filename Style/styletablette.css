@@ -1,0 +1,102 @@
+ /* ***tablette*** */
+
+ @media screen and (min-width: 731px) and (max-width: 1024px) {
+    .corps{
+     flex-direction: column-reverse;
+   }
+   #trend{
+    width: 100%;
+    margin: 0px;
+  }
+  
+  #trend .container-box{
+    flex-direction: initial;
+    width: 100%;
+    padding: 0px;
+  }
+  #trend .trendbox{
+    width: 50%;
+    margin: 0em 1em 1em 1em;
+  }
+  .trendtitle{
+    padding: 0em 1em 1em 1em;
+  }
+  
+  .hebergement{
+    width: 100%;
+    margin-top: 2em;
+    padding: 0em;
+  }
+  
+  #maRecherche{
+    height: 42px;
+    }
+  
+    .content-box{
+      display: block;
+    } 
+    
+    .first-ligne, .second-ligne{
+      flex-direction:initial;
+      width: 100%;
+    } 
+  
+    .content-box .box{
+      margin: 1em 1em 0em ;
+    }
+  
+   /* ******* activity ******** */
+  
+   .first-column{
+    width: 100%;
+    margin-right: 0em;
+    margin-left: 0px;
+  }
+  
+  .first-column .box-activ1{
+    margin-bottom: 0px;
+  }
+  
+  .second-column .box-activ1{
+    margin-right: 0px;
+  }
+   
+  .second-column{
+    width: 100%;
+    margin-left: 0px;
+  }
+  
+  .flex-activity img{
+    height: 200px;
+  }
+  
+  .ligne-activ{
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  
+  .flex-activity .box-activ1 img{
+    height: 200px;
+  }
+  
+  .flex-activity .box-activ2 img{
+    height: 200px;
+  }
+  
+  .box-activ2{
+    margin: 0px;
+    margin-top: 2em;
+    
+  }
+  .box-activ1{
+    margin-top: 2em;
+    
+  }
+  
+  .bigbox{
+    width: 100%;
+  }
+  }
