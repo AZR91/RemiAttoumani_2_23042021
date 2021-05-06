@@ -427,6 +427,7 @@ footer{
 
 .footerbox ul{
   list-style: none;
+  text-align: justify;
 }
 
 a{
