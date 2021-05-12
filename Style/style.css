@@ -44,7 +44,7 @@ nav ul{
 
 nav li {
   list-style: none;
-}
+} 
 
 nav a {
   color:black;
@@ -405,12 +405,28 @@ width: 1em;
     margin-top: 2em;
   }
 
+  .box-activ1:hover{
+    transform:scale(1.05);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .box-activ2:hover{ 
+    transform:scale(1.05);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .bigbox:hover{
+    transform:scale(1.05);
+    transition: all 0.2s ease-in-out;
+  }
+  
   .flex-activity h3{
     background-color: white;
     padding-left: 10px;
     font-size: 14px;
     
     }
+  
 
  
 /* ***FOOTER*** */   
