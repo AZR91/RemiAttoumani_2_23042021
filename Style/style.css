@@ -145,12 +145,12 @@ padding-right: 1em;
 }
 
 .bouton-filtre {
- display: flex;
- align-items: center;
- margin-right: 2em;
- border: 2px solid #f2f2f2;
- border-radius: 30px; 
- height: 2.5em;
+display: flex;
+align-items: center;
+margin-right: 2em;
+border: 2px solid #f2f2f2;
+border-radius: 30px; 
+height: 2.5em;
 }
 .filter-container :hover{
 color:blue;
@@ -397,9 +397,9 @@ width: 1em;
     padding-bottom: 0.5em;
   } 
   
- .first-column .box-activ1{
-   margin-bottom: 2em;
- }
+.first-column .box-activ1{
+  margin-bottom: 2em;
+  }
   
   .second-column .box-activ1{
     margin-top: 2em;
@@ -428,7 +428,7 @@ width: 1em;
     }
   
 
- 
+
 /* ***FOOTER*** */   
 
 footer{
@@ -453,44 +453,42 @@ a{
 
 .footerbox li{
   line-height: 30px;
-  font-weight:bolder
- }
+  font-weight:lighter
+}
 
 .footerbox li :hover{
   color: #0065FC;
 }
 
 .footerbox .footer-li{
-   font-size: 18px;
-   font-weight: bold;
+  font-size: 18px;
+  font-weight: bold;
   }
 
 /* ***Media Queries*** */
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   .content-box{
-     display: flex;
-   }
-   .content-box .box{
-     width: 80%;
-   }
- 
+    display: flex;
+  }
+  .content-box .box{
+    width: 80%;
+  }
+
   #trend .trendbox{
     width: 80%;
     height: 200px;
-   }
-   
+  }
   .first-ligne, .second-ligne{
     flex-direction: column;
     width: 50%;
-   }
- 
+  }
   .hebergement{
     width: 60%;
   }
- #trend{
+#trend{
     width: 40%;
   }
   #trend img{
     height: 100%;
   }
-   }
+  }

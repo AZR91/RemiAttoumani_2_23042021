@@ -1,10 +1,11 @@
  /* ***tablette*** */
 
- @media screen and (min-width: 731px) and (max-width: 1024px) {
+@media screen and (min-width: 731px) and (max-width: 1024px) {
     .corps{
-     flex-direction: column-reverse;
-   }
-   #trend{
+flex-direction: column-reverse;
+}
+  
+#trend{
     width: 100%;
     margin: 0px;
   }
