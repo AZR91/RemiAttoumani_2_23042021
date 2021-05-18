@@ -1,7 +1,8 @@
- /* ***tablette*** */
+/* ***tablette*** */
 
 @media screen and (min-width: 731px) and (max-width: 1024px) {
-    .corps{
+
+.corps{
 flex-direction: column-reverse;
 }
   
@@ -34,21 +35,21 @@ flex-direction: column-reverse;
     }
   
     .content-box{
-      display: block;
+    display: block;
     } 
     
     .first-ligne, .second-ligne{
-      flex-direction:initial;
-      width: 100%;
+    flex-direction:initial;
+    width: 100%;
     } 
   
     .content-box .box{
-      margin: 1em 1em 0em ;
+    margin: 1em 1em 0em ;
     }
   
    /* ******* activity ******** */
   
-   .first-column{
+  .first-column{
     width: 100%;
     margin-right: 0em;
     margin-left: 0px;
@@ -61,7 +62,7 @@ flex-direction: column-reverse;
   .second-column .box-activ1{
     margin-right: 0px;
   }
-   
+  
   .second-column{
     width: 100%;
     margin-left: 0px;
@@ -100,4 +101,4 @@ flex-direction: column-reverse;
   .bigbox{
     width: 100%;
   }
-  }
+}
